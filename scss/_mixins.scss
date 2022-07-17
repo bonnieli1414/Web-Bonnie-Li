@@ -1,0 +1,16 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+img {   
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+a {
+    display: block;
+}
+
+body {
+    font-family: -apple-system, "Segoe UI", "Microsoft JhengHei",Roboto, "Noto Sans", sans-serif;
+    font-weight: bold;
+}
