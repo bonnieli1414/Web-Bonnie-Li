@@ -1,14 +1,30 @@
-h1 {
+.banner {
     a {
+        color: #fff;
+        text-decoration: none;
         background-image: url("../image/banner.png");
         height: 958px;
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-        text-indent: 101%;
-        overflow: hidden;
-        white-space: nowrap;
+
+        ul {
+            max-width: 304px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+        }
     }
+}
+
+h1 {
+    font-size: $font-size-xl;
+    line-height: $line-height-xxl;
+}
+
+.font-style-italic {
+    font-style: italic;
 }
 
 h2 {
@@ -48,14 +64,6 @@ p {
     }
 }
 
-.circle {
-    height: 22px;
-    width: 22px;
-    background-color: #891818;
-    border-radius: 50px;
-    // margin:0 auto;
-}
-
 .works {
     ul {
         display: flex;
@@ -79,10 +87,24 @@ p {
     text-align: center;
 }
 
+.container-283 {
+    max-width: 283px;
+    margin: 0 auto;
+}
+
+.container-304 {
+    max-width: 304px;
+    margin: 0 auto;
+}
+
 .container-384 {
     max-width: 384px;
     margin: 0 auto;
     border-top: 1px solid #000000;
+}
+
+.text-align-center {
+    text-align: center;
 }
 
 .brand {
@@ -119,6 +141,10 @@ footer {
 
 .pt-68 {
     padding-top: 68px;
+}
+
+.py-308 {
+    padding: 308px 0;
 }
 
 .pb-12 {
