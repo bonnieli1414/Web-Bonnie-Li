@@ -90,6 +90,9 @@ body {
   justify-content: center;
   gap: 16px;
 }
+.banner a ul li:hover {
+  background-color: greenyellow;
+}
 
 h1 {
   font-size: 80px;

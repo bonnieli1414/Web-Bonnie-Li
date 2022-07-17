@@ -14,6 +14,9 @@
             display: flex;
             justify-content: center;
             gap: 16px;
+            li:hover {
+                background-color: greenyellow;
+            }
         }
     }
 }
